@@ -76,3 +76,11 @@
 .link-social:focus {
   background-color: var(--accent-color);
 }
+
+.pic-company:hover {
+  background-color: var(--accent-color);
+}
+
+.pic-company:focus {
+  background-color: var(--accent-color);
+}
