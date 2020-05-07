@@ -4,7 +4,7 @@
 /*акцент #2196F3*/
 /*цвет фона #F5F4FA*/
 /*цвет фона занятия rgba(47, 48, 58, 0.8)*/
-/*цвет фона героя #2F303A*/
+/*цвет фона героя и футера #2F303A*/
 
 :root {
   --primary-text-color: #757575;
@@ -22,4 +22,17 @@ body {
 
 ul {
   list-style: none;
+}
+
+footer {
+  color: var(--white-color);
+  background-color: #2f303a;
+}
+
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-footer {
+  color: rgba(255, 255, 255, 0.4);
 }
