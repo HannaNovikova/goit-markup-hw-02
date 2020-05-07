@@ -45,6 +45,17 @@ ul {
 }
 
 .hero {
-  background-color: #2f303a *;
+  background-color: #2f303a;
+}
+
+.hero .title {
   color: var(--white-color);
+}
+
+.benefits .title {
+  color: var(--title-text-color);
+}
+
+.benefits-image {
+  background-color: var(--primary-background-color);
 }
