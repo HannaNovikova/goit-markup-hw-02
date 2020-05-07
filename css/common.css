@@ -1,0 +1,25 @@
+/*цвет основного текста #757575*/
+/*вторичный цвет текста #212121*/
+/*белый #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет фона #F5F4FA*/
+/*цвет фона занятия rgba(47, 48, 58, 0.8)*/
+/*цвет фона героя #2F303A*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-background-color: #f5f4fa;
+  --title-background-color: rgba(47, 48, 58, 0.8);
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
