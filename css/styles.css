@@ -101,6 +101,10 @@ ul {
   background-color: var(--white-color);
 }
 
+.link-social {
+  color: var(--primary-text-color);
+}
+
 .link-social:hover {
   background-color: var(--accent-color);
 }
@@ -132,4 +136,16 @@ footer {
 
 footer .logo-one {
   color: var(--white-color);
+}
+
+.social .link-studio {
+  color: var(--white-color);
+}
+
+.link-studio:hover {
+  background-color: var(--accent-color);
+}
+
+.link-studio:focus {
+  background-color: var(--accent-color);
 }
