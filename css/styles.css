@@ -23,7 +23,7 @@ body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
 
-  font-family: Roboto, 'Segoe UI', sans-serif;
+  font-family: 'Roboto', 'Segoe UI', 'sans-serif';
   letter-spacing: 3px;
 }
 
@@ -37,6 +37,15 @@ ul {
 
 .logo-accent {
   color: var(--accent-color);
+
+font-family: Raleway, Segoe UI, sans-serif
+Font Style: Bold
+Font Size: 26px
+Line Height: 31px
+Line Height: 100%
+Align: Left
+Vertical Align: Top
+Letter Spacing: 3%
 }
 
 .site-nav .link {
