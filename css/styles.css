@@ -65,6 +65,11 @@ ul {
   color: var(--white-color);
 }
 
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--accent-color);
+}
+
 .title {
   color: var(--title-text-color);
 }
