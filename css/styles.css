@@ -149,3 +149,11 @@ footer .logo-one {
 .link-studio:focus {
   background-color: var(--accent-color);
 }
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+.button:focus {
+  background-color: var(--accent-color);
+}
