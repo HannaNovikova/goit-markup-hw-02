@@ -157,3 +157,20 @@ footer .logo-one {
 .button:focus {
   background-color: var(--accent-color);
 }
+
+.item-type .item-text:hover {
+  background-color: var(--accent-color);
+}
+
+.item-type .item-text:focus {
+  background-color: var(--accent-color);
+}
+
+.item-type .item-title {
+  color: var(--title-text-color);
+}
+
+.item-type .category,
+.item-type .item-text {
+  color: var(--primary-text-color);
+}
