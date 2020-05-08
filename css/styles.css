@@ -36,11 +36,17 @@ ul {
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover {
+.site-contact .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-contact .link:hover {
   color: var(--accent-color);
 }
 
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-contact .link:focus {
   background-color: var(--accent-color);
 }
 
@@ -122,4 +128,8 @@ footer {
 
 .text-footer {
   color: rgba(255, 255, 255, 0.4);
+}
+
+footer .logo-one {
+  color: var(--white-color);
 }
