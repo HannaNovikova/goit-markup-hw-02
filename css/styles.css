@@ -168,9 +168,16 @@ ul {
   background-color: var(--title-background-color);
 }
 
-.business-title: {
+.business-title {
   color: var(--white-color);
   background-color: var(--title-background-color);
+
+  text-transform: uppercase;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
 }
 
 .team-title {
