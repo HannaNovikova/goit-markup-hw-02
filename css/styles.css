@@ -76,6 +76,7 @@ Letter Spacing: 3%
 
 .button-order:hover,
 .button-order:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
@@ -127,10 +128,12 @@ Letter Spacing: 3%
 }
 
 .link-social:hover {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .link-social:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
@@ -172,18 +175,22 @@ footer .logo-one {
 }
 
 .button:hover {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .button:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .item-type .item-text:hover {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .item-type .item-text:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
