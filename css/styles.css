@@ -252,8 +252,9 @@ adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-shadow: 10px, 10px, 20px, #000000;
-}
+  letter-spacing: 3%;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  }
 
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -262,6 +263,7 @@ adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-shadow: 4px, 4px, 10px, #000000;
 }
 
 .social {
@@ -299,6 +301,7 @@ footer .logo-one {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
+  text-shadow: 4px, 4px, 10px, #000000;
 }
 
 footer .logo-accent-one {
@@ -309,6 +312,7 @@ footer .logo-accent-one {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
+  text-shadow: 4px, 4px, 10px, #000000;
 }
   
 .link-studio:hover {
