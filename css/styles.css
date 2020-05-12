@@ -24,7 +24,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', 'Segoe UI', 'sans-serif';
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link-current {
@@ -71,7 +71,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .site-contact .link {
@@ -82,10 +82,11 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover, .site-nav .link-current:hover {
+.site-nav .link:hover,
+.site-nav .link-current:hover {
   color: var(--accent-color);
   text-decoration: underline;
 }
@@ -116,7 +117,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .button-order,
@@ -131,7 +132,7 @@ ul {
   line-height: 1.88;
   text-align: center;
   vertical-align: center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .title {
@@ -201,10 +202,10 @@ ul {
 }
 
 .team-text {
-font-family: 'Roboto', 'sans-serif';
-font-weight: 400;
-Font Size: 16px
-line-height: 1.19;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .section {
@@ -236,7 +237,7 @@ line-height: 1.19;
   background-color: var(--accent-color);
 }
 
-.pic-company:focus { 
+.pic-company:focus {
   background-color: var(--accent-color);
 }
 
@@ -253,27 +254,33 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-  }
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
 
-.contact-mail-footer, .contact-tel-footer {
+.contact-mail-footer,
+.contact-tel-footer {
   color: rgba(255, 255, 255, 0.6);
 
   font-family: 'Roboto', 'sans-serif';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration:inherit;
-  text-shadow: 4px, 4px, 10px, #000000;
+  text-decoration: inherit;
+  text-shadow: 4px 4px 10px #000000;
 }
 
-.contact-adress-footer:hover, .contact-mail-footer:hover, .contact-tel-footer:hover {
-  color: var(--accent-color)
+.contact-adress-footer:hover,
+.contact-mail-footer:hover,
+.contact-tel-footer:hover {
+  color: var(--accent-color);
 }
 
-.contact-adress-footer:focus, .contact-mail-footer:focus, .contact-tel-footer:focus {
+.contact-adress-footer:focus,
+.contact-mail-footer:focus,
+.contact-tel-footer:focus {
   background-color: var(--accent-color);
 }
 
@@ -308,7 +315,7 @@ footer .logo-one {
   color: var(--white-color);
   text-decoration: none;
 
-  font-family: 'Raleway','sans-serif';
+  font-family: 'Raleway', 'sans-serif';
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
@@ -325,7 +332,7 @@ footer .logo-accent-one {
   line-height: 1.18;
   text-shadow: 4px, 4px, 10px, #000000;
 }
-  
+
 .link-studio:hover {
   background-color: var(--accent-color);
   text-decoration: none;
@@ -369,11 +376,10 @@ footer .logo-accent-one {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
-.item-type .category 
-{
+.item-type .category {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', 'sans-serif';
@@ -392,6 +398,5 @@ footer .logo-accent-one {
 }
 
 .item-type {
-  text-decoration:none;
+  text-decoration: none;
 }
-
