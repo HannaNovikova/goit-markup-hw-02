@@ -247,22 +247,25 @@ footer {
   font-family: 'Roboto', 'sans-serif';
 }
 
-adress {
+.contact-adress-footer {
+  color: inherit;
   font-family: 'Roboto', 'sans-serif';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 3%;
+  text-decoration: none;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   }
 
-.contacts-footer {
+.contact-mail-footer, .contact-tel-footer {
   color: rgba(255, 255, 255, 0.6);
 
   font-family: 'Roboto', 'sans-serif';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration:inherit;
   text-shadow: 4px, 4px, 10px, #000000;
 }
 
