@@ -269,6 +269,14 @@ footer {
   text-shadow: 4px, 4px, 10px, #000000;
 }
 
+.contact-adress-footer:hover, .contact-mail-footer:hover, .contact-tel-footer:hover {
+  color: var(--accent-color)
+}
+
+.contact-adress-footer:focus, .contact-mail-footer:focus, .contact-tel-footer:focus {
+  background-color: var(--accent-color);
+}
+
 .social {
   text-transform: uppercase;
   font-family: 'Roboto', 'sans-serif';
